@@ -1,6 +1,5 @@
 class Solution {
 public:
-    // bool predict_helper
     bool PredictTheWinner(vector<int>& nums) {
         int n = nums.size();
         if(n==1)return true;
